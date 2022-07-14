@@ -1,0 +1,32 @@
+.popular_img {
+    position: relative;
+}
+
+.img_date {
+    position: absolute;
+    bottom: 105px;
+    left: -60px;
+    transform: rotate(-90deg);
+}
+
+.popular_img::after {
+    content: '';
+    position: absolute;
+    height: 241px;
+    width: 1px;
+    background-color: #d1d1d1;
+    left: -10px;
+    bottom: 96px;
+    z-index: 999;
+}
+
+.popular_img::before {
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 3px;
+    background-color: #082032;
+    left: -11px;
+    bottom: 96px;
+    z-index: 9999;
+}

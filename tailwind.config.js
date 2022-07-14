@@ -10,6 +10,7 @@ module.exports = {
       'shadow_white':'#E5E5E5',
       'paragraph': '#6D7378',
       'paragraph_two': '#5E5E68',
+      'icon_color': "#F08F61",
     },
     fontFamily: {
       Roboto: ['Roboto', 'sans-serif'],
