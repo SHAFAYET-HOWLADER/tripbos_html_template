@@ -6,10 +6,15 @@ import man_three from "../images/man_three.png";
 const Reviews = () => {
   return (
     <section id="reviews" className='pt-40 pb-40'>
-        <div className='reviews_title container mx-auto'>
-           <h2>What people says</h2>
+        <div className='container reviews_title  mx-auto'>
+           <h3  className='font-Roboto font-bold text-5xl  text-primary'>What people says</h3>
+          <p style={{
+            borderBottom: "1px solid #000",
+            textAlign: 'center',
+            margin: '0px auto',
+            width: '90px',
+          }}>All Reviews -</p>
         </div>
-        <p className='text-center border-b-2'>All Reviews -</p>
         <div className='container mx-auto grid grid-cols-3 justify-items-center pt-8'>
         <div className='reviews_content  bg-secondary py-12 px-8 mx-2'>
            <p className='font-Poppins font-thin text-paragraph_two text-sm pb-12 leading-5'>“Quite a stressful experience was made super simple. She always gets back to any queries within day & can be trusted every step of way, was absolutely awesome to work.”</p>
