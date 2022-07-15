@@ -1,0 +1,23 @@
+.divider_icon {
+    position: absolute;
+    height: 30px;
+    width: 1px;
+    background-color: #D3D4D7;
+    top: 15px;
+    right: 535px;
+}
+
+.footer_input {
+    position: relative;
+}
+
+.footer_hover a {
+    border-bottom: 1px solid transparent;
+    transition: all linear .4s;
+}
+
+.footer_hover a:hover {
+    border-bottom: 1px solid #FF6B61;
+    color: #FF6B61;
+
+}
