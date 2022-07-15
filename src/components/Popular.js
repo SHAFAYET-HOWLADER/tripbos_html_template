@@ -38,6 +38,9 @@ const Popular = () => {
             </div>
             </div>
         </div>
+     <div className='text-center'>
+     <button className='bg-accent rounded-full py-3 px-14 ml-10 font-roboto font-medium text-white mt-24'>Explore More</button>
+     </div>
     </section >
   )
 }

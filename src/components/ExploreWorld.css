@@ -1,0 +1,29 @@
+.location_icon .location_one {
+    transition: all linear .4s;
+}
+
+.location_icon {
+    position: relative;
+    transition: all linear .4s;
+}
+
+.location_icon button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #F4F4F4;
+    padding: 8px 35px;
+    margin: 8px auto;
+    visibility: hidden;
+}
+
+.location_icon .location_one:hover {
+    cursor: pointer;
+    color: #FF6B61;
+    transform: scale(2);
+}
+
+.location_icon:hover button {
+    visibility: visible;
+    background-color: #FF6B61;
+}
