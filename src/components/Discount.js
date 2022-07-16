@@ -23,7 +23,7 @@ const Discount = () => {
               </div>
               </div>
               <div className='dis_right'>
-              <img className='h-screen' src={discount_img} alt="img" />
+              <img className='' src={discount_img} alt="img" />
               </div>
         </div>
     </section>
