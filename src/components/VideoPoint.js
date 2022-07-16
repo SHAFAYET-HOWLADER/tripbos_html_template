@@ -3,7 +3,7 @@ import { FaPlay } from "react-icons/fa";
 import img from "../images/Video_img.png"
 import {useState} from 'react'
 import ModalVideo from 'react-modal-video'
-const VideoPont = () => {
+const VideoPoint = () => {
  const [isOpen, setOpen] = useState(false)
   return (
     <section id="video" className='pt-56 pb-56' style={{
@@ -24,4 +24,4 @@ const VideoPont = () => {
     </section>
   )
 }
-export default VideoPont
+export default VideoPoint

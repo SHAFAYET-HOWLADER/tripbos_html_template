@@ -5,7 +5,7 @@ import Discount from '../Discount'
 import ExploreWorld from '../ExploreWorld'
 import Popular from '../Popular'
 import Reviews from '../Reviews'
-import VideoPont from '../VideoPont'
+import VideoPont from '../VideoPoint'
 import Destination from './Destination'
 
 const Home = () => {
