@@ -6,7 +6,7 @@ import man_three from "../images/man_three.png";
 const Reviews = () => {
 
   return (
-    <section id="reviews" className='pt-40 pb-40'>
+    <section id="reviews" className='w-screenpt-40 pb-40'>
         <div className='container reviews_title  mx-auto'>
            <h3  className='font-Roboto font-bold text-5xl  text-primary'>What people says</h3>
           <p style={{

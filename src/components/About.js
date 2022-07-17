@@ -5,7 +5,9 @@ const About = () => {
   return (
     <section id="about" className='pt-40 pb-40'>
         <div className='container mx-auto'>
-             <h2 className='font-Roboto font-medium text-6xl w-[900px] text-primary pb-20 pl-[35px]'>World best travel agency company since 2012.</h2>
+             <h2 className='font-Roboto font-medium text-6xl  text-primary pb-20 pl-[35px]'>World best travel agency 
+             <br />
+             company since 2012.</h2>
         </div>
         <div className='flex justify-center items-center'>
             <div className='flex'>

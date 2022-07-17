@@ -6,14 +6,13 @@ import ModalVideo from 'react-modal-video'
 const VideoPoint = () => {
  const [isOpen, setOpen] = useState(false)
   return (
-    <section id="video" className='pt-56 pb-56' style={{
+    <section id="video" className='w-screen pt-56  pb-56' style={{
         background: `url(${img})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundBlendMode: 'overlay',
         backgroundColor:'rgba(255, 255, 255, 0.4)',
         backgroundPosition: "center",
-        width: '100%'
     }}>
         
         <div className='video_icon flex mx-auto justify-center h-32 w-32 bg-white rounded-full text-accent'>

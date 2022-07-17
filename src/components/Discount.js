@@ -5,7 +5,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import "./Discount.css"
 const Discount = () => {
   return (
-    <section id="discount" className='pt-32' style={{
+    <section id="discount" className='w-screen pt-32' style={{
         background: `url(${discount_bg})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",

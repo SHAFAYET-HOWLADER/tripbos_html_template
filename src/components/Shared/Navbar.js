@@ -5,7 +5,7 @@ import CustomLink from './CustomLink'
 const Navbar = () => {
   return (
     <section id="navbar">
-        <div  className='flex justify-between bg-primary h-24 px-40'>
+        <div  className='flex justify-between bg-primary h-24 px-40 w-screen'>
                 <div className='navbar_logo mt-1'>
                    <h3 to="/home" className='font-Roboto font-bold text-white text-2xl my-7 cursor-pointer'>Tripbos
                    <span className='font-Roboto font-bold text-accent text-2xl'>.</span>

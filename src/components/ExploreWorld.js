@@ -4,7 +4,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import "./ExploreWorld.css"
 const ExploreWorld = () => {
   return (
-    <section className=' pt-40 pb-40'>
+    <section className='w-screen pt-40 pb-40'>
         <div className='section_title text-center mx-auto container'>
           <h3 className='mx-auto font-Roboto font-bold text-5xl  text-primary pb-10 w-[350px]' style={{
             lineHeight: '55px',

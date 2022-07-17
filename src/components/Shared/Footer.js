@@ -5,7 +5,7 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
   return (
-    <section id="footer" className='pt-32 bg-primary'>
+    <section id="footer" className='w-screen pt-32 bg-primary'>
         <div className='container mx-auto'>
             <h3 className='text-center font-Roboto font-thin text-4xl  text-white pb-12'>Subscribe to our newsletter</h3>
             <div className='relative footer_input mx-auto flex justify-center'>
@@ -14,7 +14,7 @@ const Footer = () => {
                 <FaTelegramPlane className='text-2xl absolute right-[490px] top-4'/>
               </div>
         </div>
-        <div className='container mx-auto grid grid-cols-4 justify-items-center pt-36'>
+        <div className='container  grid grid-cols-4 gap-0 justify-items-center pt-36'>
             <div>
             <h3 className='font-Roboto font-bold text-white text-2xl'>Tripbos
                    <span className='font-Roboto font-bold text-accent text-2xl'>.</span>

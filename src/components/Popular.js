@@ -44,7 +44,7 @@ const Popular = () => {
  }
 
   return (
-    <section id="popular" className='bg-secondary py-24'>
+    <section id="popular" className='bg-secondary py-24 w-screen'>
         <div className='section_title text-center mx-auto container'>
           <h3 className='font-Roboto font-medium text-6xl  text-primary pb-7'>Popular destinations</h3>
           <p className='w-[610px] font-Poppins font-normal mx-auto text-paragraph text-sm pb-20'>Comfort, stress-free life, true happiness are part of luxury lifestyle. However, remember that  luscious lifestyle costs money to maintain.</p>

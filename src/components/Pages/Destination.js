@@ -7,15 +7,15 @@ const Destination = () => {
         <div className='container flex justify-end'>
           <span className='font-Roboto font-medium text-sm border-primary border-b-2'>Recent Destinations -</span>
         </div>
-        <div className='flex pt-8'>
+        <div className='flex pt-8 items-center w-screen  justify-between'>
             <div>
-              <img src={desti_one} alt="img" />
+              <img  src={desti_one} alt="img" />
             </div>
             <div className='mx-8'>
-              <img src={desti_two} alt="img" />
+              <img  src={desti_two} alt="img" />
             </div>
             <div>
-              <img src={desti_one} alt="img" />
+              <img  src={desti_one} alt="img" />
             </div>
         </div>
     </section>
